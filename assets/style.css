@@ -27,3 +27,17 @@
     color: #ffffff;
     font-size: xx-large;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.flex-container > div {
+    background-color: green;
+    margin: 50px;
+    padding: 200px;
+    font-size: larger;
+}
