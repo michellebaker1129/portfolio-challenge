@@ -1,0 +1,29 @@
+* {
+    background-color: #e5cec1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* add backfround color to navigation bar */
+.navbar {
+    background-color: #e5cec1;
+}
+
+/* navbar link styling */
+.navbar a {
+    float: right;
+    color: #ffffff;
+    background-color: #e5cec1;
+    font-size: large;
+    text-align: center;
+    padding: 24px;
+}
+
+/* hover to change color */
+.navbar a:hover {
+    background-color: #d7b9aa;
+}
+
+.header {
+    color: #ffffff;
+    font-size: xx-large;
+}
