@@ -41,3 +41,13 @@
     padding: 200px;
     font-size: larger;
 }
+
+.bio-card {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bio-card h2 {
+    font-size: x-large;
+    font-weight: bold;
+    color: brown;
+}
