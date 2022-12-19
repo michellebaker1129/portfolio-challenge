@@ -1,56 +1,126 @@
 * {
-    background-color: #e5cec1;
+    background-color: #d7b9aa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 
-/* add background color to navigation bar */
-
+/*  */
 body {
     height: 100%;
     margin: 0;
     font-size: larger;
 }
 
+.nav-links {
+    display:flex;
+    align-items: flex-start;
+    justify-content: right;
+}
+
 /* navbar link styling */
 .nav-links a {
-    float: right;
     color: white;
-    background-color: navy;
+    background-color: #d7b9aa;
     font-size: x-large;
-    padding: 10%;
-    width: 15%;
+    padding: 50px;
+    width: 20%;
+    text-decoration: none;
 }
 
 /* hover to change color */
 .nav-links :hover {
-    background-color: orangered;
+    background-color: #e5cec1;
 }
 
 .header {
+    display:flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 10% 10%;
+}
+
+.header h1 {
     font-size: xx-large;
-    background-color: blueviolet;
+    color: #ffffff;
+    background-color: #d7b9aa;
 }
 
 .card-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    background-color: blue;
 }
 
 .card-container > div {
-    background-color: green;
-    padding: 60px 200px;
-    font-size: larger;
+    background-color: #e5cec1;
+    padding: 200px 20px;
+    font-size: larger; 
 }
 
 .bio-card {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d7b9aa;
+}
+
+.bio-card p {
+    background-color: #e5cec1;
 }
 
 .bio-card h2 {
     font-size: x-large;
     font-weight: bold;
-    color: brown;
+    background-color: #e5cec1;
+    color: #ffffff;
+}
+
+.bio-card img {
+    max-height: 400px;
+}
+
+.my-work {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    display: flex;
+}
+
+#leftdiv{
+    flex: 35%;
+}
+
+
+#rightdiv{
+    flex: 65%;
+}
+
+#primary_image{
+    width: 90%;
+    margin-left: 60px;
+}
+
+#secondary_images{
+    display: flex;
+    border: 1px solid black;
+}
+
+#my-work {
+    border: 1px solid black;
+}
+
+.test_images {
+    flex: 50%;
+}
+
+
+#work_text {
+    border: 1px solid black;
+}
+
+.my-work h2 {
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #e5cec1;
+    color: #ffffff;
+}
+
+.my-work img {
+    max-height: 400px;
 }
