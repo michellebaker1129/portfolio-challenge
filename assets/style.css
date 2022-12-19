@@ -1,44 +1,47 @@
 * {
     background-color: #e5cec1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
-/* add backfround color to navigation bar */
-.navbar {
-    background-color: #e5cec1;
+/* add background color to navigation bar */
+
+body {
+    height: 100%;
+    margin: 0;
+    font-size: larger;
 }
 
 /* navbar link styling */
-.navbar a {
+.nav-links a {
     float: right;
-    color: #ffffff;
-    background-color: #e5cec1;
-    font-size: large;
-    text-align: center;
-    padding: 24px;
+    color: white;
+    background-color: navy;
+    font-size: x-large;
+    padding: 10%;
+    width: 15%;
 }
 
 /* hover to change color */
-.navbar a:hover {
-    background-color: #d7b9aa;
+.nav-links :hover {
+    background-color: orangered;
 }
 
 .header {
-    color: #ffffff;
     font-size: xx-large;
+    background-color: blueviolet;
 }
 
-.flex-container {
+.card-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: blue;
 }
 
-.flex-container > div {
+.card-container > div {
     background-color: green;
-    margin: 50px;
-    padding: 200px;
+    padding: 60px 200px;
     font-size: larger;
 }
 
