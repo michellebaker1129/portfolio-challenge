@@ -3,12 +3,28 @@
     box-sizing: border-box;
 }
 
-.dark-background {
-background-color: #d7b9aa;
+.hilite {
+    color: #e6d7d0;
 }
 
 .light-background {
     background-color: #e5cec1;
+}
+
+.dark-background {
+    background-color: #d7b9aa;
+    }
+
+.light-accent {
+    color: #c4a494;
+}
+
+.med-accent {
+    color: #ba9785
+}
+
+.dark-accent {
+    color: #aa9183
 }
 
 /*  */
@@ -107,18 +123,17 @@ body {
 .contact-me {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
-    background-color: #e5cec1;
+;
 }
     
 .contact h2 {
     font-size: x-large;
     font-weight: bold;
-    background-color: #e5cec1;
     color: #ffffff;
     }
 
 .contact p {
-    background-color: #e5cec1;
+    color: #ffffff;
     }
     
 .contact img {
@@ -149,6 +164,7 @@ body {
 #second-projects img {
     display: block;
     width: 100%;
+    border: 3px solid black;
 }
 
 #second-projects div {
