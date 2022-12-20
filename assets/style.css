@@ -1,7 +1,14 @@
 * {
-    background-color: #d7b9aa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+}
+
+.dark-background {
+background-color: #d7b9aa;
+}
+
+.light-background {
+    background-color: #e5cec1;
 }
 
 /*  */
@@ -20,7 +27,6 @@ body {
 /* navbar link styling */
 .nav-links a {
     color: white;
-    background-color: #d7b9aa;
     font-size: x-large;
     padding: 50px;
     width: 20%;
@@ -42,7 +48,7 @@ body {
 .header h1 {
     font-size: xx-large;
     color: #ffffff;
-    background-color: #d7b9aa;
+    
 }
 
 .card-container {
@@ -51,76 +57,132 @@ body {
 }
 
 .card-container > div {
-    background-color: #e5cec1;
     padding: 200px 20px;
     font-size: larger; 
 }
 
 .bio-card {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #d7b9aa;
-}
-
-.bio-card p {
     background-color: #e5cec1;
 }
 
 .bio-card h2 {
     font-size: x-large;
     font-weight: bold;
-    background-color: #e5cec1;
+    color: #ffffff;
+}
+.bio-card p {
     color: #ffffff;
 }
 
 .bio-card img {
-    max-height: 400px;
+    max-height: 300px;
 }
 
 .my-work {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 1px solid black;
     display: flex;
+    color: #ffffff;
 }
-
-#leftdiv{
-    flex: 35%;
-}
-
-
-#rightdiv{
-    flex: 65%;
-}
-
-#primary_image{
-    width: 90%;
-    margin-left: 60px;
-}
-
-#secondary_images{
-    display: flex;
-    border: 1px solid black;
-}
-
-#my-work {
-    border: 1px solid black;
-}
-
-.test_images {
-    flex: 50%;
-}
-
 
 #work_text {
-    border: 1px solid black;
+    color: #ffffff
 }
 
 .my-work h2 {
     font-size: x-large;
     font-weight: bold;
-    background-color: #e5cec1;
     color: #ffffff;
 }
 
 .my-work img {
     max-height: 400px;
 }
+
+.contact-me {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d7b9aa;
+    }
+
+.contact-me {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    background-color: #e5cec1;
+}
+    
+.contact h2 {
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #e5cec1;
+    color: #ffffff;
+    }
+
+.contact p {
+    background-color: #e5cec1;
+    }
+    
+.contact img {
+    max-height: 300px;
+}
+
+.projects {
+    display:flex;
+    flex-direction: column;
+}
+
+#primary-project {
+    width: 20%;
+    margin-left: 5px;
+}
+
+#primary-project img {
+    width: 400px;
+    display: block;
+    border: 3px solid black;
+}
+
+#second-projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+#second-projects img {
+    display: block;
+    width: 100%;
+}
+
+#second-projects div {
+    width: 49%;
+    margin-top: 10px;
+}
+
+@media (max-width: 1100px) {
+    .my-work {
+        flex-direction: column;
+    }
+
+    .projects {
+        flex-direction: row;
+    }
+
+    #second-projects {
+        flex-direction: column;
+    }
+
+    #second-projects div {
+        width: auto;
+        margin-top: 0;
+    }
+
+    #second-projects img {
+        width: 195px;
+        height: 195px;
+    }
+
+    #primary-project {
+        width: auto;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+}
+
