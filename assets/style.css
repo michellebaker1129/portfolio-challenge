@@ -1,8 +1,10 @@
+/* overall font */
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 
+/* hex colors named for easy changes */
 .hilite {
     color: #e6d7d0;
 }
@@ -27,20 +29,19 @@
     color: #aa9183
 }
 
-/*  */
 body {
     height: 100%;
     margin: 0;
-    font-size: larger;
+    font-size: large;
 }
 
+/* navbar styling */
 .nav-links {
     display:flex;
     align-items: flex-start;
     justify-content: right;
 }
 
-/* navbar link styling */
 .nav-links a {
     color: white;
     font-size: x-large;
@@ -49,11 +50,11 @@ body {
     text-decoration: none;
 }
 
-/* hover to change color */
 .nav-links :hover {
     background-color: #e5cec1;
 }
 
+/* name-plate styling */
 .header {
     display:flex;
     align-items: flex-start;
@@ -63,10 +64,10 @@ body {
 
 .header h1 {
     font-size: xx-large;
-    color: #ffffff;
-    
+    color: #ffffff;    
 }
 
+/* body sections */
 .card-container {
     display: flex;
     flex-direction: column;
@@ -77,6 +78,7 @@ body {
     font-size: larger; 
 }
 
+/* top card: bio */
 .bio-card {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #e5cec1;
@@ -87,6 +89,7 @@ body {
     font-weight: bold;
     color: #ffffff;
 }
+
 .bio-card p {
     color: #ffffff;
 }
@@ -95,6 +98,7 @@ body {
     max-height: 300px;
 }
 
+/* second card: links to my apps */
 .my-work {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -115,31 +119,7 @@ body {
     max-height: 400px;
 }
 
-.contact-me {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #d7b9aa;
-    }
-
-.contact-me {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
-;
-}
-    
-.contact h2 {
-    font-size: x-large;
-    font-weight: bold;
-    color: #ffffff;
-    }
-
-.contact p {
-    color: #ffffff;
-    }
-    
-.contact img {
-    max-height: 300px;
-}
-
+/* image links to my apps with styling */
 .projects {
     display:flex;
     flex-direction: column;
@@ -172,6 +152,32 @@ body {
     margin-top: 10px;
 }
 
+/* contact me info */
+.contact-me {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d7b9aa;
+}
+
+.contact-me {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+    
+.contact h2 {
+    font-size: x-large;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.contact p {
+    color: #ffffff;
+}
+    
+.contact img {
+    max-height: 300px;
+}
+
+/* adjust for different screen sizes */
 @media (max-width: 1100px) {
     .my-work {
         flex-direction: column;
